@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[681],{9358:function(a){a.exports=JSON.parse('{"allTagsPath":"/gate-of-babylon/blog/tags","slug":"/gate-of-babylon/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/gate-of-babylon/blog/tags/docusaurus"}')}}]);
