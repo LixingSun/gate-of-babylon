@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'LixingSun', // Usually your GitHub org/user name.
-  projectName: 'gate-of-babylon', // Usually your repo name.
+  organizationName: 'LixingSun',
+  projectName: 'gate-of-babylon',
 
   presets: [
     [
@@ -23,14 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/LixingSun/gate-of-babylon',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
+          showReadingTime: false,
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/LixingSun/gate-of-babylon',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,21 +41,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Gate of Babylon',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'GOB Logo',
+          src: 'img/my_avatar.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'frontend/fe-home',
             position: 'left',
-            label: 'Tutorial',
+            label: '前端',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/LixingSun/gate-of-babylon',
             label: 'GitHub',
             position: 'right',
           },
@@ -67,46 +65,46 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '分类',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '前端',
+                to: '/docs/frontend/fe-home',
               },
             ],
           },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
           {
-            title: 'Community',
+            title: '更多',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/LixingSun/gate-of-babylon',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lixing Sun. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
