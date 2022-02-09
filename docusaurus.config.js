@@ -69,7 +69,7 @@ const config = {
             items: [
               {
                 label: '前端',
-                to: '/docs/frontend/fe-home',
+                to: '/docs/frontend',
               },
             ],
           },
