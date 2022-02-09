@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -17,7 +16,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/frontend">
-            Docusaurus Tutorial - 5min ⏱️
+            前端
           </Link>
         </div>
       </div>
@@ -29,11 +28,21 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="宝库大门"
+      description={siteConfig.tagline} >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <div className={styles.todoList}>
+          <div className="text--center">
+            <h2>画饼🍕</h2>
+            <ul className="menu__list row--align-center">
+              <li className="menu__list-item">Cloud</li>
+              <li className="menu__list-item">Flutter</li>
+              <li className="menu__list-item">Unity</li>
+              <li className="menu__list-item">Games</li>
+            </ul>
+          </div>
+        </div>
       </main>
     </Layout>
   );
