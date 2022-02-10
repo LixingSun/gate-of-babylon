@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Gate of Babylon',
-  tagline: 'Treasure of Knowledge📚 and Fun🎮',
+  tagline: '这里是📚和🎮的宝库',
   url: 'https://lixingsun.github.io',
   baseUrl: '/gate-of-babylon/',
   onBrokenLinks: 'throw',
@@ -94,6 +94,19 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  i18n: {
+    defaultLocale: 'zh',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      zh: {
+        htmlLang: 'zh',
+      }
+    },
+  },
 };
 
 module.exports = config;
