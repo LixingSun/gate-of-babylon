@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[6155],{8072:function(a){a.exports=JSON.parse('{"allTagsPath":"/gate-of-babylon/en/blog/tags","slug":"/gate-of-babylon/en/blog/tags/hello","name":"hello","count":2,"permalink":"/gate-of-babylon/en/blog/tags/hello"}')}}]);
