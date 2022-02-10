@@ -1,0 +1,32 @@
+---
+id: "undefined"
+title: "Undefined"
+sidebar_position: 1
+---
+
+# Undefined - 未定义
+
+需要区分 **undefined** 是一个全局对象的一个属性（全局变量），而 **Undefined** 是类型。
+
+```js
+  var x;
+  console.log(x); // undefined
+  // 对于未赋值的变量，此时类型为Undefined, 值为undefined
+```
+
+:::tip 使用 "void 0" 来赋值
+由于 undefined 并非关键字（算是设计失误），所以为了避免被意外篡改导致的问题，应保险起见使用 `void 0` 生成 undefined 值。
+:::
+
+## 比较 undefined 值
+```js
+  var x;
+  // 1. 使用 ===
+  if (x === undefined) {
+    console.log('is undefined') // is undefined
+  }
+  // 2. 使用typeof
+  if (typeof x === 'undefined') {
+    console.log('is undefined') // is undefined
+  }
+```

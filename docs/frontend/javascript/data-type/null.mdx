@@ -1,0 +1,27 @@
+---
+id: "null"
+title: "Null"
+sidebar_position: 2
+---
+
+# Null - 空值
+
+相较于 Undefined, Null表示**已定义**但值为空。
+
+而类似于 Undefined/undefined, 需要区分**null**是一个字面量，而**Null**是类型。
+
+:::tip null vs undefined
+```js
+  typeof null        // "object"
+  typeof undefined   // "undefined"
+
+  null === undefined // false
+  null == undefined // true
+
+  !undefined //true
+  !null //true
+
+  isNaN(1 + null) // false
+  isNaN(1 + undefined) // true
+```
+:::

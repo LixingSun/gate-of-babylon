@@ -1,0 +1,35 @@
+# 数据类型
+
+- [MDN - JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#javascript_types)
+- [ECMAScript Data Types and Values](https://262.ecma-international.org/6.0/#sec-ecmascript-data-types-and-values)
+
+## 原始类型 (Primitive Values) ##
+*** 值一经定义无法修改 ***
+- [Undefined](./undefined)
+- [Null](./null)
+- Boolean
+  - *取值仅限 `true` 和 `false` 。*
+- [String](./string)
+- [Number / BigInt](./number)
+- [Symbol](./symbol)
+
+## Object
+- key type: String or Symbol
+- Object type: Number, String, Boolean, Symbol
+```javascript
+new Number(3)
+```
+- Change prototype of object type will apply to primitive type
+```javascript
+Symbol.prototype.hello = () => console.log("hello")
+var a = Symbol("a");
+a.hello(); // hello
+```
+
+## Type Conversion
+### StringToNumber
+- StringToNumber supports: DEC, BIN, OCT, HEX, scientific notation
+- Normally using Number is better than parseInt and parseFloat
+
+### NumberToString
+- Extreme large or small value will use scientific notation

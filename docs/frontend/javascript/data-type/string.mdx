@@ -1,0 +1,38 @@
+---
+id: string
+title: String
+sidebar_position: 3
+---
+
+# String - 字符串
+
+根据[ECMAScript](https://262.ecma-international.org/6.0/#sec-ecmascript-language-types-string-type)的定义，字符串类型是长度不超过2<sup>53</sup> - 1的UTF-16编码合集。
+
+## 字面量
+```js
+'A string'; // 字符串字面量
+
+var b = 'B';
+`${b} string`; // 模板字面量
+```
+
+## 字符串拼接
+```js
+// 1. 通过+号
+'String A' + 'String B';
+// 2. 通过每行末尾的\号
+'String A, \
+String B and \
+String C';
+```
+
+## 获取单个字符
+```js
+// 1. 通过字面量的charAt方法
+'string'.charAt(0); // 's'
+// 2. 通过数组取值方式
+'string'[0]; // 's'
+```
+
+## 字符串比较
+可以直接通过比较操作符: `<`, `>`, `<=`, `>=`。规则为从首位开始挨个比较字符Unicode值，若只有一方有字符则该字符串视为更大。

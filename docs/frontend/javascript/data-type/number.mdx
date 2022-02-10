@@ -1,0 +1,32 @@
+---
+id: number
+title: Number
+sidebar_position: 4
+---
+
+# Number - 数字
+
+基于 IEEE 754 标准的双精度 64 位二进制格式的值，范围从-(2<sup>53</sup> -1) 到 2<sup>53</sup> -1）
+
+**特殊值**
+- NaN
+- Infinity
+- -Infinity
+
+:::tip +0 和 -0 的区别
+  ```js
+    +0 === -0; // true
+    1 / +0; // Infinity
+    1 / -0; // -Infinity
+  ```
+:::
+
+:::tip 非整数的对比
+  ```js
+    var x = 0.3 - 0.2;
+    var y = 0.1;
+
+    console.log(x === y); // false
+    console.log(x - y <= Number.EPSILON); // true
+  ```
+:::
