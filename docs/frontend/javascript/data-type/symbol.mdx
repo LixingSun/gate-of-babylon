@@ -6,6 +6,58 @@ sidebar_position: 4
 
 # Symbol - 符号
 
-- Introduced in ES6
-- Non-string object key
-- Symbol.iterator
+ES6中引入的类型，用于*对象的非字符串键值*。通过全局`Symbol`函数创建，每个返回值都是*唯一的*。
+```js
+  let firstSymbol = Symbol('key');
+  let secondSymbol = Symbol('key');
+  firstSymbol === secondSymbol; // false
+```
+:::tip 不支持new
+```js
+  new Symbol('key'); // TypeError
+```
+:::
+
+:::tip Symbol是不可迭代的
+```js
+  let o = new Object;
+  o[Symbol('a')] = 'a';
+  o['b'] = 'b';
+
+  for (let i in o) {
+    console.log(i); // 'b'
+  }
+
+  console.log(Object.getOwnPropertySymbols(o)); // '[Symbol('a')]'
+```
+:::
+
+## 注册、取得全局symbol
+- `Symbol.for(key)`会基于给定的 key 查找或注册全局symbol
+- `Symbol.keyFor(symbol)`会基于给定的 symbol 查找全局symbol key
+
+## [内建全局symbols](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol#%E4%BC%97%E6%89%80%E5%91%A8%E7%9F%A5%E7%9A%84_symbols)
+除了自己创建的symbols，JavaScript还内建有很多用于各种语言内部行为。可以通过替换的方式修改默认行为，例如可以通过修改对象的`Symbol.iterator`来修改`for...of`的行为:
+```js
+  let o = new Object;
+  o[Symbol.iterator] = () => {
+    let value = 0;
+    return {
+      next: () => ({ value: value++, done: value > 3 })
+    }
+  };
+
+  for (let value of o) {
+    console.log(value); // 0,1,2
+  }
+```
+
+简单列一些比较浅显的Symbol:
+- 迭代
+  - `Symbol.iterator`: `for...of`
+  - `Symbol.iterator`: `for await of`
+- 字符串
+  - `Symbol.match`: `String.prototype.match()`
+  - `Symbol.search`: `String.prototype.search()`
+  - `Symbol.replace`: `String.prototype.replace()`
+  - `Symbol.split`: `String.prototype.split()`
