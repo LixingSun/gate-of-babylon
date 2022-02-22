@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lixingsun.github.io/gate-of-babylon/en/game</id>
+    <title>Gate of Babylon Blog</title>
+    <updated>2022-02-22T16:00:41.247Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lixingsun.github.io/gate-of-babylon/en/game"/>
+    <subtitle>Gate of Babylon Blog</subtitle>
+    <icon>https://lixingsun.github.io/gate-of-babylon/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[玩家你好]]></title>
+        <id>game</id>
+        <link href="https://lixingsun.github.io/gate-of-babylon/en/game/game"/>
+        <updated>2022-02-22T16:00:41.247Z</updated>
+        <summary type="html"><![CDATA[希望能让同为玩家的你在这里有所收获。]]></summary>
+        <content type="html"><![CDATA[<p>希望能让同为玩家的你在这里有所收获。</p>]]></content>
+    </entry>
+</feed>

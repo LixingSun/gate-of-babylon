@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Gate of Babylon Blog</title>
+        <link>https://lixingsun.github.io/gate-of-babylon/game</link>
+        <description>Gate of Babylon Blog</description>
+        <lastBuildDate>Tue, 22 Feb 2022 16:00:41 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[玩家你好]]></title>
+            <link>https://lixingsun.github.io/gate-of-babylon/game/game</link>
+            <guid>game</guid>
+            <pubDate>Tue, 22 Feb 2022 16:00:41 GMT</pubDate>
+            <description><![CDATA[希望能让同为玩家的你在这里有所收获。]]></description>
+            <content:encoded><![CDATA[<p>希望能让同为玩家的你在这里有所收获。</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
