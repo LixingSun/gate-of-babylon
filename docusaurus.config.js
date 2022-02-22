@@ -23,17 +23,27 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/LixingSun/gate-of-babylon',
         },
         blog: {
           showReadingTime: false,
-          editUrl:
-            'https://github.com/LixingSun/gate-of-babylon',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+  ],
+
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'game',
+        routeBasePath: 'game',
+        path: './game',
+        showReadingTime: false,
+      },
     ],
   ],
 
@@ -53,7 +63,8 @@ const config = {
             position: 'left',
             label: '前端',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          { to: '/game', label: '游戏', position: 'left' },
+          { to: '/blog', label: '博客', position: 'left' },
           {
             href: 'https://github.com/LixingSun/gate-of-babylon',
             label: 'GitHub',
@@ -70,6 +81,10 @@ const config = {
               {
                 label: '前端',
                 to: '/docs/frontend',
+              },
+              {
+                label: '游戏',
+                to: '/game',
               },
             ],
           },
