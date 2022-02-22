@@ -24,7 +24,7 @@ sidebar_position: 1
 
 ![Design Sprint](./design-sprint.jpeg)
 
-## [Double Diamond (双钻模型)]("https://en.wikipedia.org/wiki/Double_Diamond_(design_process_model)")
+## [Double Diamond (双钻模型)](https://en.wikipedia.org/wiki/Double_Diamond_(design_process_model))
 
 由英国设计协会提出，是由问题到解决方案的一种思维方式。两“钻”分别是在探究*做正确的事*和*用正确的方法*，而由进一步细分为四个阶段
 - Discover
