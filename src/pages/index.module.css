@@ -16,14 +16,14 @@
   }
 }
 
-.buttons {
+.homeGrid {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.todoList {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+.homeGridItem {
+  padding: 3rem 0;
+  text-align: center;
+  width: 50%;
+  font-size: 3rem;
 }

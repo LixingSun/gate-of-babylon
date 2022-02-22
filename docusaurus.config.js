@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Gate of Babylon',
-  tagline: '这里是📚和🎮的宝库',
+  tagline: '技术📚和游戏🎮的杂货铺',
   url: 'https://lixingsun.github.io',
   baseUrl: '/gate-of-babylon/',
   onBrokenLinks: 'throw',
