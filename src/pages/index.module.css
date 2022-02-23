@@ -17,13 +17,48 @@
 }
 
 .homeGrid {
+  padding: 2rem 0;
+}
+
+.homeGridRow {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .homeGridItem {
-  padding: 3rem 0;
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  width: 12rem;
   text-align: center;
-  width: 50%;
-  font-size: 3rem;
+  font-size: 2rem;
+  border: 3px solid var(--ifm-color-gray-300);
+  border-radius: 0.5rem;
+  color: var(--ifm-font-color-base);
+}
+
+.homeGridItem:hover {
+  color: var(--ifm-font-color-base-inverse);
+  text-decoration: none;
+}
+
+.homeGridItemAmber {
+  border-color: var(--ifm-color-primary-amber);
+}
+
+.homeGridItemAmber:hover {
+  background-color: var(--ifm-color-primary-amber);
+}
+
+.homeGridItemBlue{
+  border-color: var(--ifm-color-primary-blue);
+}
+
+.homeGridItemBlue:hover {
+  background-color: var(--ifm-color-primary-blue);
+}
+
+.homeGridItemDisabled {
+  pointer-events: none;
+  color: var(--ifm-color-gray-700);
 }

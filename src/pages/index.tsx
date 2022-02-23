@@ -21,31 +21,32 @@ interface IHomepageGridItemProps {
   title: string;
   color?: string;
   light?: boolean;
-  disabled?: boolean;
   link?: string;
 }
 
-const HomepageGridItem: FC<IHomepageGridItemProps> = ({ title, color = "#EEEEEE", light = true, disabled = false, link }) => {
-  const fontColor = disabled ? "#BDBDBD" : light ? "#FFFFFF" : "#000000";
+const HomepageGridItem: FC<IHomepageGridItemProps> = ({ title, color = "", light = true, link = "" }) => {
 
   return (
-    <div className={styles.homeGridItem} style={{ backgroundColor: color }}>
-      {link ?
-        <Link to={link} style={{ color: fontColor }}>
-          {title}
-        </Link>
-        : <span style={{ color: fontColor }}>{title}</span>}
-    </div>
+    <Link
+      to={link}
+      className={clsx(styles.homeGridItem, !!color && styles[`homeGridItem${color}`], !link && [styles.homeGridItemDisabled], light && [styles.homeGridItemLight])}
+    >
+      {title}
+    </Link >
   );
 }
 
 const HomepageGrid = () => {
   return (
     <div className={styles.homeGrid}>
-      <HomepageGridItem title="前端" color="#286560" link="/docs/frontend" />
-      <HomepageGridItem title="Cloud" disabled />
-      <HomepageGridItem title="Unity" disabled />
-      <HomepageGridItem title="游戏" color="#AC356A" link="/game" />
+      <div className={styles.homeGridRow}>
+        <HomepageGridItem title="前端" color="Amber" link="/docs/frontend" />
+        <HomepageGridItem title="Coding" />
+      </div>
+      <div className={styles.homeGridRow}>
+        <HomepageGridItem title="Unity" />
+        <HomepageGridItem title="游戏" color="Blue" link="/game" />
+      </div>
     </div>
   );
 }
