@@ -45,7 +45,7 @@ const HomepageGrid = () => {
       <HomepageGridItem title="前端" color="#286560" link="/docs/frontend" />
       <HomepageGridItem title="Cloud" disabled />
       <HomepageGridItem title="Unity" disabled />
-      <HomepageGridItem title="游戏" color="#AC356A" disabled />
+      <HomepageGridItem title="游戏" color="#AC356A" link="/game" />
     </div>
   );
 }
