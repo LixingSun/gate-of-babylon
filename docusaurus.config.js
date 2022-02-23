@@ -43,6 +43,8 @@ const config = {
         routeBasePath: 'game',
         path: './game',
         showReadingTime: false,
+        blogSidebarTitle: '游戏库',
+        blogSidebarCount: 'ALL',
       },
     ],
   ],

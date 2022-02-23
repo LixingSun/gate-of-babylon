@@ -1,5 +1,5 @@
 ---
-slug: game
+slug: game-start
 title: 玩家你好
 tags: []
 ---
