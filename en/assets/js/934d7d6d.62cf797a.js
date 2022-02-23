@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[7082],{8466:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u73a9\u5bb6\u4f60\u597d","permalink":"/gate-of-babylon/en/game/game"}]}')}}]);
