@@ -14,7 +14,7 @@ sidebar_position: 2
 - `<link>`
 - `<style>`
 - `<script>`
-- [`<noscript>`](noscript)
+- [`<noscript>`](#noscript)
 - [`<meta>`](#meta)
 
 ## [title](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
