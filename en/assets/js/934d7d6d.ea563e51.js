@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[7082],{8466:function(e){e.exports=JSON.parse('{"title":"\u6e38\u620f\u5e93","items":[{"title":"\u5b9d\u53ef\u68a6\u4f20\u8bf4\u963f\u5c14\u5b99\u65af \u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f","permalink":"/gate-of-babylon/en/game/pokemon-legends-arceus"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[93],{3467:function(e){e.exports=JSON.parse('{"allTagsPath":"/gate-of-babylon/en/game/tags","slug":"/gate-of-babylon/en/game/tags/roguelike","name":"Roguelike","count":1,"permalink":"/gate-of-babylon/en/game/tags/roguelike"}')}}]);

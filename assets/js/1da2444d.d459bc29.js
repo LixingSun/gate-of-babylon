@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[974],{7089:function(e){e.exports=JSON.parse('{"permalink":"/gate-of-babylon/game","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
