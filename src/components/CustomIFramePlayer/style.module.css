@@ -1,0 +1,16 @@
+.iframePlayer {
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .iframePlayer {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .iframePlayer {
+        height: 200px;
+    }
+}
