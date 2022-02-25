@@ -1,15 +1,46 @@
 # Gate of Babylon
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+### [线上由此去](https://lixingsun.github.io/gate-of-babylon/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+这是一个基于 [Docusaurus 2](https://docusaurus.io/) 开发的个人网站。目前包含了一些个人感兴趣的内容，涵盖了开发技术和游戏推荐。
 
-### `npm start`
+欢迎指正、补充、提建议，可以直接提【Issue](https://github.com/LixingSun/gate-of-babylon/issues)。如果觉得还行，请点个Star⭐️（我是个肤浅的人）。
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 网站内容
 
-### `npm run build`
+目前主要计划包含三部分
+- 技术: 一些知识记录和总结
+    - **前端** (更新中🔧)
+    - Unity (已挖坑🕳)
+    - 比较宽泛的编程知识，如算法、DevOps、工程实践等 (已挖坑🕳)
+- 博客: 一些杂七杂八的产出 (已挖坑🕳)
+- **游戏**: 秉着“不能白玩”的想法，尝试写些不算评测的个人推荐
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 项目相关
+### 运行
+
+有兴趣的可以在本地安装了Node.js的环境下通过以下方式启动
+```cmd
+    npm install
+    npm start
+```
+
+### CI/CD
+
+目前是采用的Github Actions的CI/CD，部署到Github Pages。配置可以参考目录下的`.github/workflows/gob_cicd.yml`以及网上的教程。
+
+## TODO（画饼）
+
+反正画饼不要钱=.=
+- **学习路线图**: 根据网站目录生成类似思维导图，将内容结构更好的可视化。
+- **~~炫酷~~动效**: 作为动画爱好者，不整点动效说不过去，至少首页要拉满，细节也可以多加加。
+- **游戏用自己的B站视频**: 录制剪辑成本有点高，等把挖的坑填的七七八八了可以搞搞。
+ 
+## 碎碎念
+
+- 为什么取这个名字: Gate of Babylon，二次猿懂的都懂。因为要放些杂七杂八的东西，从价值也算的上自己的宝库，所以自然就想到了。
+- 很多尝试之前都只有几天热情，希望立贴为证能把这个一直做下去。
+- 纠结之后还是决定采用中文内容加英文文档的形式。选中文内容一方面是锻炼自己的中文写作和概念知识，不会脑子来只有英文单词；一方面也是觉得暂时应该不会有多少英文读者...而选用英文文档主要是保证内容的准确性。
+- 目前是个纯前端项目，主要都是信息展示也没什么需要保护的内容；之后有必要的时候会考虑添加后端以支持更丰富的功能。
