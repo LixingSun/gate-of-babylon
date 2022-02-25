@@ -12,8 +12,8 @@ sidebar_position: 2
 - [`<title>`](#title)
 - [`<base>`](#base)
 - `<link>`
-- `<style>`
-- `<script>`
+- [`<style>`](#style)
+- [`<script>`](#script)
 - [`<noscript>`](#noscript)
 - [`<meta>`](#meta)
 
@@ -38,6 +38,54 @@ sidebar_position: 2
 
 :::caution 至多一个
 `<head>`中至多包含一个`<base>`。重复定义的base标签会被忽略。
+:::
+
+## [style](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)
+
+在`<head>`内显式地定义样式，而非像`link`引入外部样式表。可以通过`media`属性来区分适用的场景，和在CSS中设置media query是一样的写法。
+
+```HTML
+<!doctype html>
+<html>
+<head>
+  <style media="all and (max-width: 480px)">
+    p {
+      font-size: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <p>字号在移动端会更小.</p>
+</body>
+</html>
+```
+
+## [script](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+
+用于给文档插入可运行代码或者嵌入数据。大部分情况都是JavaScript。
+
+```HTML
+<!-- 插入外部脚本 -->
+<script src="app.js"></script>
+<!-- 嵌入代码 -->
+<script>console.log("Hi!")</script>
+<!-- 嵌入JSON数据 -->
+<script id="data" type="application/json">{ "key": "value"}</script>
+```
+
+:::tip 添加`async`或`defer`属性优化加载
+不同情况下浏览器处理顺序为:
+
+![async and defer](./script-async-defer.jpeg)
+
+`<script>` - HTML解析暂停 -> 加载脚本 -> 执行脚本 -> HTML解析继续
+
+`<script defer>` - HTML解析/同时加载脚本 -> （HTML解析完成）执行脚本
+
+`<script async>` - HTML解析/同时加载脚本 -> （加载完成）HTML解析暂停 -> 执行脚本 -> HTML解析继续
+
+所以能看到`defer`将脚本执行放到了最后，避免了执行过程中阻塞渲染；而`async`将原本加载+执行的阻塞事件缩短为了只有执行时间。可以根据场景选择优化方案。
+
 :::
 
 ## [noscript](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript)
