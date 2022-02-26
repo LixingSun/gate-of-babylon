@@ -1,7 +1,7 @@
 ---
 id: metadata
 title: 元数据标签
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # [元数据标签](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#metadata_content)
@@ -11,7 +11,7 @@ sidebar_position: 2
 标签种类并不多，有以下几种:
 - [`<title>`](#title)
 - [`<base>`](#base)
-- `<link>`
+- [`<link>`](/docs/frontend/html/link#link)
 - [`<style>`](#style)
 - [`<script>`](#script)
 - [`<noscript>`](#noscript)
