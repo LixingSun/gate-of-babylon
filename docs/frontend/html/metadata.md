@@ -32,7 +32,7 @@ sidebar_position: 1
 ## [base](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)
 改变全局相对URL的基础URL，属于历史遗留标签。此标签未声明时全局默认会使用`location.href`。属性与a标签类似。
 
-```HTML
+```HTML title=示例
 <base href="https://github.io/" target="_blank">
 ```
 
@@ -44,7 +44,7 @@ sidebar_position: 1
 
 在`<head>`内显式地定义样式，而非像`link`引入外部样式表。可以通过`media`属性来区分适用的场景，和在CSS中设置media query是一样的写法。
 
-```HTML
+```HTML title=示例
 <!doctype html>
 <html>
 <head>
@@ -64,7 +64,7 @@ sidebar_position: 1
 
 用于给文档插入可运行代码或者嵌入数据。大部分情况都是JavaScript。
 
-```HTML
+```HTML title=示例
 <!-- 插入外部脚本 -->
 <script src="app.js"></script>
 <!-- 嵌入代码 -->
@@ -99,7 +99,7 @@ sidebar_position: 1
 ### 文档级信息 
 带有`name`属性的meta标签。配合`content`表示值。`name`标准取值[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name)有列出，其中就包含了上面的几个常见用例，同时也可以自定义。
 
-```HTML
+```HTML title=示例
 <meta name="description" content="这是一个例子">
 <meta name="keywords" content="学习, 博客, 游戏">
 ```
@@ -111,7 +111,7 @@ sidebar_position: 1
 ### 编译指示指令
 带有`http-equiv`属性的meta标签。同样配合`content`表示值。`http-equiv`标准取值同样参考[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-http-equiv)。例如在[Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)中用到的`content-security-policy`
 
-```HTML
+```HTML title=示例
 <meta http-equiv="Content-Security-Policy"
       content="default-src 'self'; img-src https://*; child-src 'none';">
 ```
@@ -119,7 +119,7 @@ sidebar_position: 1
 ### 自定义元数据
 带有`itenprop`属性的meta标签。同样配合`content`表示值。并且和常规不同，自定义情况下标签的内容类型除了元数据类型，也同样可为流数据，嵌在常规标签中。
 
-```HTML
+```HTML title=示例
 <span itemscope>
     <meta itemprop="name" content="some values">
 </span>
