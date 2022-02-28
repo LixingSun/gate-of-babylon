@@ -12,7 +12,7 @@ sidebar_position: 2
 
 作为最常用的标签之一，`a`标签的用法多种多样，既有常用内外跳转，也有像触发电话邮件这样的功能。
 
-```HTML title=示例
+```HTML
 <a href="https://lixingsun.github.io/gate-of-babylon/" target="_blank">外部链接</a>
 
 <a href="#link">页面内部跳转</a>
@@ -33,7 +33,7 @@ sidebar_position: 2
 
 可以当作区域型`a`标签。只能和`<map>`、`<img>`一起使用，以达到在图片上选择特定区域创造链接的作用。
 
-```HTML title=示例
+```HTML
 <img src="logo.png" usemap="#shape">
 <map name="shape">
     <area shape="circle" href="#home" target="_self" />
@@ -80,7 +80,7 @@ sidebar_position: 2
 
 可以考虑使用网上类似[favicon generator](https://www.favicon-generator.org/)这样的免费网站来生成一套对应的图标及如下代码
 
-```HTML
+```HTML title=生成的一套favicon相关标签
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
