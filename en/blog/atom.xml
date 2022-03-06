@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lixingsun.github.io/gate-of-babylon/en/blog</id>
     <title>Gate of Babylon Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2022-03-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lixingsun.github.io/gate-of-babylon/en/blog"/>
     <subtitle>Gate of Babylon Blog</subtitle>
     <icon>https://lixingsun.github.io/gate-of-babylon/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Stripo——Email内卷神器]]></title>
+        <id>stripo</id>
+        <link href="https://lixingsun.github.io/gate-of-babylon/en/blog/stripo"/>
+        <updated>2022-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[推荐一下最近新发现的Email美化神器 Stripo]]></summary>
+        <content type="html"><![CDATA[<p>推荐一下最近新发现的<strong>Email美化神器</strong> <a href="https://stripo.email/" target="_blank" rel="noopener noreferrer">Stripo</a></p><p><img alt="Stripo website" src="/gate-of-babylon/en/assets/images/website-2a1debe28b219c62087b57d991347a97.png" width="2962" height="883"></p><p>先上点例子:</p><p><strong>模板</strong></p><p><img alt="例子1" src="/gate-of-babylon/en/assets/images/sample1-992d374c11a1ea7335db859e1da5457c.png" width="3496" height="1687"></p><p><strong>自定义</strong></p><p><img alt="例子2" src="/gate-of-babylon/en/assets/images/sample2-e689bd5959b9e597bfbdb732ea557228.png" width="3495" height="1692"></p><p>可以看到Email已经完全达到了网页的设计效果，甚至还能自适应。这还不是最卷的，如果看看这编辑器，会发现更多更卷的功能。感兴趣的可以去自己尝试，这里主要分享下自己作为免费用户到目前的一些使用心得。</p><p>(👇🏻来源于官方)</p><p><strong>布局</strong></p><p><img alt="拖动布局" src="/gate-of-babylon/en/assets/images/layout-b3b015944898fa923d5ef877cbc01c21.gif" width="600" height="327"></p><p><strong>组件</strong></p><p><img alt="拖动组件" src="/gate-of-babylon/en/assets/images/block-b22e979640f057f23b196a3697194066.gif" width="600" height="373"></p><h2 class="anchor anchorWithStickyNavbar_mojV" id="优点">优点<a class="hash-link" href="#优点" title="Direct link to heading">​</a></h2><ul><li><strong>自适应</strong> - 相较于其他一些Email模板工具，Stripo不仅是布局层面上提供了类栅格的自适应布局，在更下层如组件的编辑过程中也有很丰富的自适应编辑空间，甚至有像“仅桌面”“仅移动端”这样的配置。可以说这些功能让产出的Email在不同端上都能有不错的上限。</li><li><strong>Padding/圆角</strong> - 这是我最为欣赏的一点，不仅在这两点上支持自定义，甚至还允许在四个方向上分别配置，操作空间直接就上去了。</li><li><strong>自定义HTML</strong> - 虽然不是独此一家的功能，但作为前端看到这个功能确实能让在编辑Email的时候能更加大展拳脚。</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="缺点">缺点<a class="hash-link" href="#缺点" title="Direct link to heading">​</a></h2><ul><li><strong>层级嵌套</strong> - Stripo在一定层面上也可以算低代码网页编辑了，所以自然也有层级嵌套的结构（毕竟最终是以HTML渲染的）。而就在这种环境下，类似于行容器和整行元素之间就会遇到一些小坑，比如加背景色的。只能说上限提高的代价就是额外增加了一部分配置复杂度。</li><li><strong>预览渲染偏差</strong> - 如果有使用自定义HTML的功能，需要注意预览时的渲染版本和真实发出的渲染版本会有差异（比如从CSS class能够发现区别），所以需要额外关注。<strong>特别是尽量使用inline样式。</strong></li><li><strong>每日5封测试</strong> - 这个其实不算缺点，只能算免费账号的局限。就是每天只能发出五次测试邮件，但基本够用，除了遇到要调试什么bug可能还有点紧缺。</li></ul>]]></content>
+        <category label="Stripo" term="Stripo"/>
+        <category label="Email" term="Email"/>
+        <category label="工具推荐" term="工具推荐"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
