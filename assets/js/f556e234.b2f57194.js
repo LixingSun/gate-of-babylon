@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[3134],{557:function(a){a.exports=JSON.parse('{"allTagsPath":"/gate-of-babylon/game/tags","slug":"/gate-of-babylon/game/tags/switch","name":"Switch","count":1,"permalink":"/gate-of-babylon/game/tags/switch"}')}}]);

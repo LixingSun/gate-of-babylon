@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[8348],{5675:function(a){a.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"/en/blog/tags/\u5de5\u5177\u63a8\u8350","name":"\u5de5\u5177\u63a8\u8350","count":1,"permalink":"/en/blog/tags/\u5de5\u5177\u63a8\u8350"}')}}]);

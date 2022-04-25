@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Gate of Babylon Blog</title>
-        <link>https://lixingsun.github.io/gate-of-babylon/blog</link>
+        <link>https://lixingsun.github.io/blog</link>
         <description>Gate of Babylon Blog</description>
         <lastBuildDate>Sun, 06 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Stripo——Email内卷神器]]></title>
-            <link>https://lixingsun.github.io/gate-of-babylon/blog/stripo</link>
+            <link>https://lixingsun.github.io/blog/stripo</link>
             <guid>stripo</guid>
             <pubDate>Sun, 06 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[推荐一下最近新发现的Email美化神器 Stripo]]></description>
-            <content:encoded><![CDATA[<p>推荐一下最近新发现的<strong>Email美化神器</strong> <a href="https://stripo.email/" target="_blank" rel="noopener noreferrer">Stripo</a></p><p><img alt="Stripo website" src="/gate-of-babylon/assets/images/website-2a1debe28b219c62087b57d991347a97.png" width="2962" height="883"></p><p>先上点例子:</p><p><strong>模板</strong></p><p><img alt="例子1" src="/gate-of-babylon/assets/images/sample1-992d374c11a1ea7335db859e1da5457c.png" width="3496" height="1687"></p><p><strong>自定义</strong></p><p><img alt="例子2" src="/gate-of-babylon/assets/images/sample2-e689bd5959b9e597bfbdb732ea557228.png" width="3495" height="1692"></p><p>可以看到Email已经完全达到了网页的设计效果，甚至还能自适应。这还不是最卷的，如果看看这编辑器，会发现更多更卷的功能。感兴趣的可以去自己尝试，这里主要分享下自己作为免费用户到目前的一些使用心得。</p><p>(👇🏻来源于官方)</p><p><strong>布局</strong></p><p><img alt="拖动布局" src="/gate-of-babylon/assets/images/layout-b3b015944898fa923d5ef877cbc01c21.gif" width="600" height="327"></p><p><strong>组件</strong></p><p><img alt="拖动组件" src="/gate-of-babylon/assets/images/block-b22e979640f057f23b196a3697194066.gif" width="600" height="373"></p><h2 class="anchor anchorWithStickyNavbar_mojV" id="优点">优点<a class="hash-link" href="#优点" title="标题的直接链接">​</a></h2><ul><li><strong>自适应</strong> - 相较于其他一些Email模板工具，Stripo不仅是布局层面上提供了类栅格的自适应布局，在更下层如组件的编辑过程中也有很丰富的自适应编辑空间，甚至有像“仅桌面”“仅移动端”这样的配置。可以说这些功能让产出的Email在不同端上都能有不错的上限。</li><li><strong>Padding/圆角</strong> - 这是我最为欣赏的一点，不仅在这两点上支持自定义，甚至还允许在四个方向上分别配置，操作空间直接就上去了。</li><li><strong>自定义HTML</strong> - 虽然不是独此一家的功能，但作为前端看到这个功能确实能让在编辑Email的时候能更加大展拳脚。</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="缺点">缺点<a class="hash-link" href="#缺点" title="标题的直接链接">​</a></h2><ul><li><strong>层级嵌套</strong> - Stripo在一定层面上也可以算低代码网页编辑了，所以自然也有层级嵌套的结构（毕竟最终是以HTML渲染的）。而就在这种环境下，类似于行容器和整行元素之间就会遇到一些小坑，比如加背景色的。只能说上限提高的代价就是额外增加了一部分配置复杂度。</li><li><strong>预览渲染偏差</strong> - 如果有使用自定义HTML的功能，需要注意预览时的渲染版本和真实发出的渲染版本会有差异（比如从CSS class能够发现区别），所以需要额外关注。<strong>特别是尽量使用inline样式。</strong></li><li><strong>每日5封测试</strong> - 这个其实不算缺点，只能算免费账号的局限。就是每天只能发出五次测试邮件，但基本够用，除了遇到要调试什么bug可能还有点紧缺。</li></ul>]]></content:encoded>
+            <content:encoded><![CDATA[<p>推荐一下最近新发现的<strong>Email美化神器</strong> <a href="https://stripo.email/" target="_blank" rel="noopener noreferrer">Stripo</a></p><p><img alt="Stripo website" src="/assets/images/website-2a1debe28b219c62087b57d991347a97.png" width="2962" height="883"></p><p>先上点例子:</p><p><strong>模板</strong></p><p><img alt="例子1" src="/assets/images/sample1-992d374c11a1ea7335db859e1da5457c.png" width="3496" height="1687"></p><p><strong>自定义</strong></p><p><img alt="例子2" src="/assets/images/sample2-e689bd5959b9e597bfbdb732ea557228.png" width="3495" height="1692"></p><p>可以看到Email已经完全达到了网页的设计效果，甚至还能自适应。这还不是最卷的，如果看看这编辑器，会发现更多更卷的功能。感兴趣的可以去自己尝试，这里主要分享下自己作为免费用户到目前的一些使用心得。</p><p>(👇🏻来源于官方)</p><p><strong>布局</strong></p><p><img alt="拖动布局" src="/assets/images/layout-b3b015944898fa923d5ef877cbc01c21.gif" width="600" height="327"></p><p><strong>组件</strong></p><p><img alt="拖动组件" src="/assets/images/block-b22e979640f057f23b196a3697194066.gif" width="600" height="373"></p><h2 class="anchor anchorWithStickyNavbar_mojV" id="优点">优点<a class="hash-link" href="#优点" title="标题的直接链接">​</a></h2><ul><li><strong>自适应</strong> - 相较于其他一些Email模板工具，Stripo不仅是布局层面上提供了类栅格的自适应布局，在更下层如组件的编辑过程中也有很丰富的自适应编辑空间，甚至有像“仅桌面”“仅移动端”这样的配置。可以说这些功能让产出的Email在不同端上都能有不错的上限。</li><li><strong>Padding/圆角</strong> - 这是我最为欣赏的一点，不仅在这两点上支持自定义，甚至还允许在四个方向上分别配置，操作空间直接就上去了。</li><li><strong>自定义HTML</strong> - 虽然不是独此一家的功能，但作为前端看到这个功能确实能让在编辑Email的时候能更加大展拳脚。</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="缺点">缺点<a class="hash-link" href="#缺点" title="标题的直接链接">​</a></h2><ul><li><strong>层级嵌套</strong> - Stripo在一定层面上也可以算低代码网页编辑了，所以自然也有层级嵌套的结构（毕竟最终是以HTML渲染的）。而就在这种环境下，类似于行容器和整行元素之间就会遇到一些小坑，比如加背景色的。只能说上限提高的代价就是额外增加了一部分配置复杂度。</li><li><strong>预览渲染偏差</strong> - 如果有使用自定义HTML的功能，需要注意预览时的渲染版本和真实发出的渲染版本会有差异（比如从CSS class能够发现区别），所以需要额外关注。<strong>特别是尽量使用inline样式。</strong></li><li><strong>每日5封测试</strong> - 这个其实不算缺点，只能算免费账号的局限。就是每天只能发出五次测试邮件，但基本够用，除了遇到要调试什么bug可能还有点紧缺。</li></ul>]]></content:encoded>
             <category>Stripo</category>
             <category>Email</category>
             <category>工具推荐</category>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://lixingsun.github.io/gate-of-babylon/blog/welcome</link>
+            <link>https://lixingsun.github.io/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img alt="Docusaurus Plushie" src="/gate-of-babylon/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
             <category>facebook</category>
             <category>hello</category>
             <category>docusaurus</category>
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://lixingsun.github.io/gate-of-babylon/blog/mdx-blog-post</link>
+            <link>https://lixingsun.github.io/blog/mdx-blog-post</link>
             <guid>mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
@@ -40,7 +40,7 @@
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
-            <link>https://lixingsun.github.io/gate-of-babylon/blog/long-blog-post</link>
+            <link>https://lixingsun.github.io/blog/long-blog-post</link>
             <guid>long-blog-post</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
@@ -50,7 +50,7 @@
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://lixingsun.github.io/gate-of-babylon/blog/first-blog-post</link>
+            <link>https://lixingsun.github.io/blog/first-blog-post</link>
             <guid>first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>

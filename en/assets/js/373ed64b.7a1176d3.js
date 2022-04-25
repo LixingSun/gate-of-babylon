@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[7123],{1202:function(a){a.exports=JSON.parse('{"allTagsPath":"/gate-of-babylon/en/blog/tags","slug":"/gate-of-babylon/en/blog/tags/stripo","name":"Stripo","count":1,"permalink":"/gate-of-babylon/en/blog/tags/stripo"}')}}]);

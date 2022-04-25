@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[2100],{3947:function(e){e.exports=JSON.parse('{"allTagsPath":"/en/game/tags","slug":"/en/game/tags/roguelike","name":"Roguelike","count":1,"permalink":"/en/game/tags/roguelike"}')}}]);

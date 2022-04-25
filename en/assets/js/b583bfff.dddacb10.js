@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[2673],{6424:function(a){a.exports=JSON.parse('{"allTagsPath":"/gate-of-babylon/en/game/tags","slug":"/gate-of-babylon/en/game/tags/\u5b9d\u53ef\u68a6","name":"\u5b9d\u53ef\u68a6","count":1,"permalink":"/gate-of-babylon/en/game/tags/\u5b9d\u53ef\u68a6"}')}}]);

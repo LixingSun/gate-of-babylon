@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[4844],{1506:function(a){a.exports=JSON.parse('{"allTagsPath":"/en/game/tags","slug":"/en/game/tags/\u5f00\u653e\u4e16\u754c","name":"\u5f00\u653e\u4e16\u754c","count":1,"permalink":"/en/game/tags/\u5f00\u653e\u4e16\u754c"}')}}]);

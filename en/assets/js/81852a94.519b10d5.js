@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[3372],{2399:function(a){a.exports=JSON.parse('{"allTagsPath":"/en/game/tags","slug":"/en/game/tags/switch","name":"Switch","count":1,"permalink":"/en/game/tags/switch"}')}}]);

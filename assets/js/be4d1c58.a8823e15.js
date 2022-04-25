@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[4768],{3811:function(a){a.exports=JSON.parse('{"allTagsPath":"/gate-of-babylon/blog/tags","slug":"/gate-of-babylon/blog/tags/\u5de5\u5177\u63a8\u8350","name":"\u5de5\u5177\u63a8\u8350","count":1,"permalink":"/gate-of-babylon/blog/tags/\u5de5\u5177\u63a8\u8350"}')}}]);

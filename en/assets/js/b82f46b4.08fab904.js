@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgate_of_babylon=self.webpackChunkgate_of_babylon||[]).push([[9224],{7313:function(a){a.exports=JSON.parse('{"allTagsPath":"/gate-of-babylon/en/blog/tags","slug":"/gate-of-babylon/en/blog/tags/email","name":"Email","count":1,"permalink":"/gate-of-babylon/en/blog/tags/email"}')}}]);
