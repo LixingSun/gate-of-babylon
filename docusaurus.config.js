@@ -9,7 +9,7 @@ const config = {
   title: 'Gate of Babylon',
   tagline: '技术📚和游戏🎮的杂货铺',
   url: 'https://lixingsun.github.io',
-  baseUrl: '/gate-of-babylon/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
